@@ -1,0 +1,119 @@
+body 
+{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    
+}
+
+/* I created another container cos I want only fonts and other general stuff to be in the body */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.card {
+    margin: 50px;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+    width: 300px;
+}
+
+.card img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.transbox .nft-img:hover {
+    background-image:url(images/icon-view.svg);
+    cursor: pointer;
+    opacity: 0.5;
+    
+}
+
+.intro-text h2 {
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.intro-text h2:hover {
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.intro-text p {
+    font-weight:300;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.eth {
+    list-style-image: url(images/icon-ethereum.svg);
+    color:hsl(178, 100%, 50%);
+    margin-right: 60px;
+    margin-left: -20px;
+
+}
+.time {
+    list-style-image: url(images/icon-clock.svg);
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    margin-left: 70px;
+}
+
+.info ul {
+    display: flex;
+    padding-bottom: 7px;
+    
+}
+
+hr {
+    color:hsl(215, 32%, 27%);    
+}
+
+.footer {
+    display: flex;
+    padding-top: 7px;
+}
+
+.footer img {
+    margin-right: 25px;
+    width: 40px;
+    height: 40px;
+}
+
+.footer p {
+    /* position: relative; */
+    /* top: 585px;
+    left: 600px; */
+    margin-top: 11px;
+    font-weight:300;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+.footer p .bold {
+    color:hsl(0, 0%, 100%);
+}
+
+.footer p .bold:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+/* my signature*/
+/* mbm means made by me! */
+/* .mbm {
+    color: hsl(0, 0%, 100%);
+    font-size: 13px;
+    position: relative;
+    top: 10px;
+    font-weight: 300;
+    left: 220px;
+} */
